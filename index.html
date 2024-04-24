@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="shortcut icon" class="" href="portfolio.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body class="bg-[#081b29]">
+    
+
+<!-- Navbar start -->
+
+
+<div class='bg-black w-full md:fixed md:top-0 z-10'>
+
+          
+    <div class='container mx-auto text-white flex md:flex-row flex-col gap-6 justify-between md:items-center py-6'>
+          
+        <div class="flex items-center justify-between">
+
+            <a href="#" class="pl-2 md:pl-0 text-xl flex items-center"><p>MyPortfolio</p></a> 
+                
+            <span class="text-3xl flex items-center cursor-pointer md:hidden block text-left" onclick="toggleMenu()">
+                <ion-icon name="menu"></ion-icon>
+             </span>
+        </div>    
+
+        
+
+        <div class='nav-menu hidden flex md:flex md:flex-row flex-col gap-6 items-start md:items-center pl-2 md:pl-0'>
+
+
+            <a href="#" class='hover:text-[#00abf0] hover:transition hover:duration-500 uppercase'><p>Home</p></a>       
+            <a href="#about" class='hover:text-[#00abf0] hover:transition hover:duration-500 uppercase'><p>About</p></a>     
+            <a href="#skills" class='hover:text-[#00abf0] hover:transition hover:duration-500 uppercase'><p>Skills</p></a>       
+            <a href="#projects" class='hover:text-[#00abf0] hover:transition hover:duration-500 uppercase'><p>Projects</p></a>  
+            <a href="#thesis" class='hover:text-[#00abf0] hover:transition hover:duration-500 uppercase'><p>Thesis</p></a> 
+            <a href="#awards" class='hover:text-[#00abf0] hover:transition hover:duration-500 uppercase'><p>Awards </p>
+            <a href="#experience" class='hover:text-[#00abf0] hover:transition hover:duration-500 uppercase'><p>Experience</p></a>
+            <a href="#contact" class='hover:text-[#00abf0] hover:transition hover:duration-500 uppercase'><p>Contact</p></a>
+            
+
+
+           </div>
+                   
+    </div>
+    
+</div>
+
+<!-- Navbar End -->
+
+
+<!-- Intro start -->
+
+
+<div class="pt-[110px]">
+
+    <img src="Shahed.jpg" alt="" class="h-[300px] w-[300px] mx-auto img1 rounded-full">
+        
+    
+</div>
+
+<div class="mt-10">
+
+    <h1 class="text-white text-5xl text-center font-semibold px-2">Welcome to my portfolio</h1>
+    
+</div>
+
+
+
+
+<div class="w-full h-full flex justify-center items-center mt-6">
+    
+    <h1 id="typewriter" class="intro font-bold text-[#00abf0]"></h1>   
+   
+</div>
+
+
+<div class="mt-8 flex items-center justify-center">
+
+    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfrLZgGlkfjxnRRglbnBgJNwDFzLVCpTqXmKFbxFlqXHNsfXLVTGscMjjMThSgbxpFWCbB" target="_blank"><button class="text-white font-semibold text-center hover:bg-[#00abf0] hover:transition hover:duration-500 border-[1px] border-[#00abf0] p-2 rounded-md">Hire me</button></a>
+</div>
+
+<!-- Intro end -->
+
+
+
+
+<!-- About Me start -->
+
+
+<div class="mt-20">
+
+    <h1 id="about" class="text-4xl text-center text-[#00abf0] font-semibold">About me</h1>
+
+</div>
+
+
+<div class="mt-10 mx-4 sm:mx-[50px] md:mx-[60px]">
+
+  <p class="text-justify text-[20px] text-white">
+
+    My name is Abdullah Shahed. I have completed my graduation at Green university of Bangladesh with BSc in CSE. I have two years of experience in Frontend Development. I have also some Backend skills. I have devloped 10+ projects. I am a punctual, dedicated on my work, Obey rule, Enthusiastic , Career minded and open minded, capable of solving comprehensive problems, talkative and having good communication skills.
+    <span id="more-content" class="text-justify text-[20px] hidden text-white">
+        To be associated with an organization which provides challenging work environmental and proving my excellence at every step is my long term career goal. Highly efficient and passionate for learning new concept, ideas, techniques. To reach the heights in my career with proven expertise.
+    </span>
+
+  </p>
+  
+  <div class="mt-5">
+
+    <button class="read text-white font-semibold text-center hover:bg-[#00abf0] hover:transition hover:duration-500 border-[1px] border-[#00abf0] p-2 rounded-md" onclick="toggleContent()">Read more</button>
+
+  </div>
+
+
+</div>
+
+
+<!-- About Me end -->
+
+
+
+<!-- Technical skills start -->
+
+
+<div class="mt-20">
+
+    <h1 id="skills" class="text-4xl text-center text-[#00abf0] font-semibold">Technical Skills</h1>
+
+</div>
+
+<div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6 mx-4 sm:mx-[50px] md:mx-[60px]">
+
+        <div class="">
+
+            <div class="flex items-center gap-1">
+
+                    <img class="h-[30px] w-[40px]" src="html.png" alt="">  
+                    <span class="text-white font-semibold">HTML</span>
+
+            </div>
+
+            <div class="mt-6">
+              
+                    <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                        <div class="bg-orange-500 font-bold rounded-full text-center text-[12px]" style="width: 90%">90%</div>
+                    </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div>
+
+            <div class="flex items-center gap-1">
+
+                    <img class="h-[30px] w-[40px]" src="xml1.png" alt="">  
+                    <span class="text-white font-semibold">XML</span>
+
+            </div>
+
+            <div class="mt-6">
+              
+                    <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                        <div class="bg-[#1ee0cb] font-bold rounded-full text-center text-[12px]" style="width: 72%">72%</div>
+                    </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div>
+
+            <div class="flex items-center gap-1">
+
+                    <img class="h-[30px] w-[40px]" src="css.png" alt="">  
+                    <span class="text-white font-semibold">CSS</span>
+
+            </div>
+
+            <div class="mt-6">
+              
+                    <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                        <div class="bg-[#545dff] font-bold rounded-full text-center text-[12px]" style="width: 80%">80%</div>
+                    </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div>
+
+            <div class="flex items-center gap-1">
+
+                    <img class="h-[30px] w-[40px]" src="bootstarp.png" alt="">  
+                    <span class="text-white font-semibold">Bootstrap</span>
+
+            </div>
+
+            <div class="mt-6">
+              
+                    <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                        <div class="bg-[#b223fe] font-bold rounded-full text-center text-[12px]" style="width: 74%">74%</div>
+                    </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div>
+
+            <div class="flex items-center gap-1">
+
+                    <img class="h-[30px] w-[40px]" src="js.png" alt="">  
+                    <span class="text-white font-semibold">JavaScript</span>
+
+            </div>
+
+            <div class="mt-6">
+              
+                    <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                        <div class="bg-[#faf32f] font-bold rounded-full text-center text-[12px]" style="width: 50%">50%</div>
+                    </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div>
+
+            <div class="flex items-center gap-1">
+
+                    <img class="h-[30px] w-[40px]" src="react.png" alt="">  
+                    <span class="text-white font-semibold">React JS</span>
+
+            </div>
+
+            <div class="mt-6">
+              
+                    <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                        <div class="bg-[#00abf0] font-bold rounded-full text-center text-[12px]" style="width: 55%">55%</div>
+                    </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div>
+
+            <div class="flex items-center gap-1">
+
+                    <img class="h-[30px] w-[40px]" src="php.png" alt="">  
+                    <span class="text-white font-semibold">PHP</span>
+
+            </div>
+
+            <div class="mt-6">
+              
+                    <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                        <div class="bg-[#f98bf5] font-bold rounded-full text-center text-[12px]" style="width: 60%">60%</div>
+                    </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div>
+
+            <div class="flex items-center gap-1">
+
+                    <img class="h-[30px] w-[40px]" src="mysql.png" alt="">  
+                    <span class="text-white font-semibold">MySQL</span>
+
+            </div>
+
+            <div class="mt-6">
+              
+                    <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                        <div class="bg-[skyblue] font-bold rounded-full text-center text-[12px]" style="width: 75%">75%</div>
+                    </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div>
+
+            <div class="flex items-center gap-1">
+
+                    <img class="h-[30px] w-[40px]" src="c.png" alt="">  
+                    <span class="text-white font-semibold">C</span>
+
+            </div>
+
+            <div class="mt-6">
+              
+                    <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                        <div class="bg-[#6699CC] font-bold rounded-full text-center text-[12px]" style="width: 68%">68%</div>
+                    </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div>
+
+            <div class="flex items-center gap-1">
+
+                    <img class="h-[30px] w-[40px]" src="java.png" alt="">  
+                    <span class="text-white font-semibold">Java</span>
+
+            </div>
+
+            <div class="mt-6">
+              
+                    <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                        <div class="bg-pink-300 font-bold rounded-full text-center text-[12px]" style="width: 50%">50%</div>
+                    </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div>
+
+            <div class="flex items-center gap-1">
+
+                    <img class="h-[30px] w-[40px]" src="tailwind.png" alt="">  
+                    <span class="text-white font-semibold">Tailwind CSS</span>
+
+            </div>
+
+            <div class="mt-6">
+              
+                    <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                        <div class="bg-[#8fd2ff] font-bold rounded-full text-center text-[12px]" style="width: 78%">78%</div>
+                    </div>
+
+            </div>
+
+
+        </div>
+
+
+
+ </div>       
+
+
+<!-- Technical skills end -->
+
+
+<!-- Soft Skills start -->
+
+
+
+<div class="mt-20">
+
+    <h1 id="about" class="text-4xl text-center text-[#00abf0] font-semibold">Soft Skills</h1>
+
+</div>
+
+
+<div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6 mx-4 sm:mx-[50px] md:mx-[60px]">
+
+    <div class="">
+
+        <div class="flex items-center gap-1">
+ 
+                <span class="text-white font-semibold">Communication Skill</span>
+
+        </div>
+
+        <div class="mt-6">
+          
+                <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                    <div class="bg-[#00FF66] font-bold rounded-full text-center text-[12px]" style="width: 80%">80%</div>
+                </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="">
+
+        <div class="flex items-center gap-1">
+ 
+                <span class="text-white font-semibold">Problem Solving</span>
+
+        </div>
+
+        <div class="mt-6">
+          
+                <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                    <div class="bg-[#ff33f5] font-bold rounded-full text-center text-[12px]" style="width: 70%">70%</div>
+                </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="">
+
+        <div class="flex items-center gap-1">
+ 
+                <span class="text-white font-semibold">Leadership Skill</span>
+
+        </div>
+
+        <div class="mt-6">
+          
+                <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                    <div class="bg-[tomato] font-bold rounded-full text-center text-[12px]" style="width: 75%">75%</div>
+                </div>
+
+        </div>
+
+
+    </div>
+    
+    
+    <div class="">
+
+        <div class="flex items-center gap-1">
+ 
+                <span class="text-white font-semibold">Team Work</span>
+
+        </div>
+
+        <div class="mt-6">
+          
+                <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                    <div class="bg-[#bbf73b] font-bold rounded-full text-center text-[12px]" style="width: 85%">85%</div>
+                </div>
+
+        </div>
+
+
+    </div>
+
+
+ </div>   
+
+
+
+
+<!-- Soft Skills end -->
+
+
+
+<!-- Projects start -->
+
+
+
+<div class="mt-20">
+
+    <h1 id="projects" class="text-4xl text-center text-[#00abf0] font-semibold">Projects</h1>
+
+</div>
+
+
+<div class="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8  sm:mx-[50px] md:mx-[60px]">
+    
+
+                    <div class="mx-auto md:hover:scale-110 md:hover:transition md:hover:duration-[0.7s] bg-white h-[300px] md:w-[450px] w-[390px] shade rounded-lg">
+
+                   <a href="https://github.com/shahed32156/online_food_delivery_website" target="_blank">
+                            
+                        <div class="">
+                            <img id="c" src="foodorder.PNG" alt="" class="h-[200px] md:w-[450px] w-[390px]">
+                        </div>
+
+                        <div>
+
+                            <h3 class="text-[20px] mt-4 mb-2 text-center font-semibold">Online Food Delivery Website</h3>
+                            <p class="text-[16px] text-center">Based on: HTML | CSS | JavaScript | PHP</p>
+
+                        </div>
+                    </a>
+
+                    </div>
+
+                    <div class="mx-auto md:hover:scale-110 md:hover:transition md:hover:duration-[0.7s] bg-white h-[300px] md:w-[450px] w-[390px] shade rounded-lg">
+
+                        <a href="https://github.com/shahed32156/online_tutors_website" target="_blank">
+                                 
+                             <div class="">
+                                 <img id="c" src="tutors.PNG" alt="" class="h-[200px] md:w-[450px] w-[390px]">
+                             </div>
+     
+                             <div>
+     
+                                 <h3 class="text-[20px] mt-4 mb-2 text-center font-semibold">Online Tutors Website</h3>
+                                 <p class="text-[16px] text-center">Based on: HTML | CSS</p>
+     
+                             </div>
+                         </a>
+     
+                         </div>
+
+
+                         <div class="mx-auto md:hover:scale-110 md:hover:transition md:hover:duration-[0.7s] bg-white h-[300px] md:w-[450px] w-[390px] shade rounded-lg">
+
+                            <a href="https://github.com/shahed32156/google_classroom_website" target="_blank">
+                                     
+                                 <div class="">
+                                     <img id="c" src="Classroom.PNG" alt="" class="h-[200px] md:w-[450px] w-[390px]">
+                                 </div>
+         
+                                 <div>
+         
+                                     <h3 class="text-[20px] mt-4 mb-2 text-center font-semibold">Google Classroom Website</h3>
+                                     <p class="text-[16px] text-center">Based on: HTML | CSS | JavaScript | PHP</p>
+         
+                                 </div>
+                             </a>
+         
+                             </div>
+
+                             <div class="mx-auto md:hover:scale-110 md:hover:transition md:hover:duration-[0.7s] bg-white h-[300px] md:w-[450px] w-[390px] shade rounded-lg">
+
+                                <a href="https://github.com/shahed32156/ecommerce-website" target="_blank">
+                                         
+                                     <div class="">
+                                         <img id="c" src="e-commerce.PNG" alt="" class="h-[200px] md:w-[450px] w-[390px]">
+                                     </div>
+             
+                                     <div>
+             
+                                         <h3 class="text-[20px] mt-4 mb-2 text-center font-semibold">E-commerce Website</h3>
+                                         <p class="text-[16px] text-center">Based on: HTML | CSS | JavaScript | PHP</p>
+             
+                                     </div>
+                                 </a>
+             
+                                 </div>
+
+
+                                 <div class="mx-auto md:hover:scale-110 md:hover:transition md:hover:duration-[0.7s] bg-white h-[300px] md:w-[450px] w-[390px] shade rounded-lg">
+
+                                    <a href="https://github.com/shahed32156/Portfolio-Type-Tailwind-Project" target="_blank">
+                                             
+                                         <div class="">
+                                             <img id="c" src="tailwind-personal.PNG" alt="" class="h-[200px] md:w-[450px] w-[390px]">
+                                         </div>
+                 
+                                         <div>
+                 
+                                             <h3 class="text-[20px] mt-4 mb-2 text-center font-semibold">Tailwind Simple Website</h3>
+                                             <p class="text-[16px] text-center">Based on: HTML | Tailwind CSS | JavaScript</p>
+                 
+                                         </div>
+                                     </a>
+                 
+                                     </div>
+
+
+
+                                     <div class="mx-auto md:hover:scale-110 md:hover:transition md:hover:duration-[0.7s] bg-white h-[300px] md:w-[450px] w-[390px] shade rounded-lg">
+
+                                        <a href="https://github.com/shahed32156/Online-grocery-shop-home-page" target="_blank">
+                                                 
+                                             <div class="">
+                                                 <img id="c" src="groceryshop.PNG" alt="" class="h-[200px] md:w-[450px] w-[390px]">
+                                             </div>
+                     
+                                             <div>
+                     
+                                                 <h3 class="text-[20px] mt-4 mb-2 text-center font-semibold">Online Grocery Shop</h3>
+                                                 <p class="text-[16px] text-center">Based on: HTML | Tailwind CSS | JavaScript</p>
+                     
+                                             </div>
+                                         </a>
+                     
+                                         </div>
+
+
+                                         <div class="mx-auto md:hover:scale-110 md:hover:transition md:hover:duration-[0.7s] bg-white h-[300px] md:w-[450px] w-[390px] shade rounded-lg">
+
+                                            <a href="https://github.com/shahed32156/Bongo-website" target="_blank">
+                                                     
+                                                 <div class="">
+                                                     <img id="c" src="bongo.PNG" alt="" class="h-[200px] md:w-[450px] w-[390px]">
+                                                 </div>
+                         
+                                                 <div>
+                         
+                                                     <h3 class="text-[20px] mt-4 mb-2 text-center font-semibold">Bongo Website</h3>
+                                                     <p class="text-[16px] text-center">Based on: HTML | Tailwind CSS | JavaScript | React JS</p>
+                         
+                                                 </div>
+                                             </a>
+                         
+                                             </div>
+
+
+                             
+</div>
+
+
+
+
+<!-- Projects end -->
+
+
+
+<!-- Thesis start  -->
+
+
+<div class="mt-20">
+
+    <h1 id="thesis" class="text-4xl text-center text-[#00abf0] font-semibold">Thesis</h1>
+
+</div>
+
+
+<div class="mt-16 mb-4 mx-4">
+
+    <p class="text-center text-white text-[20px]">Securing the IoT with Blockchain Technology: Enhancing Security and Optimizing Performance.</p>
+    
+
+</div>
+
+<div class="mx-4">
+    <p class="text-center text-white text-[20px]">-This is my final year ongoing thesis work in university.</p>
+</div> 
+
+
+<!-- Thesis end -->
+
+
+<!-- Awards start  -->
+
+
+<div class="mt-20">
+
+    <h1 id="awards" class="text-4xl text-center text-[#00abf0] font-semibold">Awards</h1>
+
+</div>
+
+<div class="mt-16 mb-4 mx-4">
+
+    <p class="text-center text-white text-[20px]">-Vice Chancellor's Meritorious Student Award for Fall semester 2022.</p>
+    
+
+</div>
+
+<div class="mx-4">
+    <p class="text-center text-white text-[20px]">-Dean's Meritorious Student Award for Summer semester 2023</p>
+</div> 
+
+<!-- Awards end  -->
+
+
+
+<!-- Experience start  -->
+
+
+<div class="mt-20">
+
+    <h1 id="experience" class="text-4xl text-center text-[#00abf0] font-semibold">Experience</h1>
+
+</div>
+
+<div class="mt-16 mb-4">
+
+    <img src="nexttech.jpg" alt="" class="h-[150px] w-[200px] mx-auto img1 rounded-md">  
+    
+</div>
+
+<div class="mt-10 mx-4">
+
+    <p class="text-center text-white text-[20px]">I have already completed my 3 months internship at NextTech Limited Bangladesh as an Web Developer.</p>
+    
+
+</div>
+
+<!-- Experience end  -->
+
+
+
+<!-- Contact start  -->
+
+
+<div class="mt-20">
+
+    <h1 id="contact" class="text-4xl text-center text-[#00abf0] font-semibold">Contact me</h1>
+
+</div>
+
+
+<div class="mt-16 bg-[#081b29] h-[350px] w-[full] rounded-lg contact mx-6 sm:mx-[50px] md:mx-[60px]">
+
+
+    <div class="pt-10 flex flex-col gap-4 items-center justify-center">
+        <p class="text-white text-center text-[20px] font-semibold">Address: Mirpur-14,Dhaka-1206</p>
+
+        <p class="text-white text-center text-[20px] font-semibold">Email: shahed32156@gmail.com</p>
+    
+        <p class="text-white text-center text-[20px] font-semibold">Phone: +8801741987566</p>
+
+    </div>
+
+    <div class="pt-10 flex gap-8 items-center justify-center">
+
+        <a href="https://www.facebook.com/profile.php?id=100094014247740&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook fa-2x text-[#00abf0]"></i></a>
+        <a href="https://instagram.com/abdullah__shahed?utm_source=qr&igshid=MThlNWY1MzQwNA==" target="_blank"><i class="fa-brands fa-instagram fa-2x text-[#00abf0]"></i></a>
+        <a href="https://github.com/shahed32156" target="_blank"><i class="fa-brands fa-github fa-2x text-[#00abf0]"></i></a>
+        <a href="https://linkedin.com/in/abdullahshahed24/" target="_blank"><i class="fa-brands fa-linkedin fa-2x text-[#00abf0]" target="_blank"></i></a>    
+
+    </div>
+
+    <div class="mt-8 flex items-center justify-center">
+
+        <a href="./Abdullah Shahed (Resume).pdf" download="Abdullah Shahed (Resume)" target="_blank"><button class="text-white font-semibold text-center hover:bg-[#00abf0] hover:transition hover:duration-500 border-[1px] border-[#00abf0] p-2 rounded-md">Download Resume</button></a>
+    
+    </div>
+
+</div>
+
+<!-- Contact end  -->
+
+
+
+<!-- Contact form start  -->
+
+
+<div class="mt-20 h-[530px] w-[full] contact-form mx-6 sm:mx-[50px] md:mx-[60px] rounded-lg">
+
+    <form action="https://formsubmit.co/443846771d4a398c20442cb42bd23deb" method="POST">
+        
+   <div class="py-6">
+
+    <h1 class="text-white text-[20px] font-semibold text-center">Share Your Query</h1>
+
+   </div>
+
+   <div class="ml-6">
+
+    <p class="text-white font-semibold text-[16px]">Full Name <span style="color: red;">*</span></p>
+
+   </div>
+
+   <div class="pt-4 pb-6 mx-6">
+
+    <input type="text" placeholder="Enter your name here" required class="text-white border-2 border-[#00abf0] focus:outline-none w-full h-[40px] pl-2 rounded-md bg-[#081b29]">
+
+   </div>
+
+   <div class="ml-6">
+
+    <p class="text-white font-semibold text-[16px]">Email <span style="color: red;">*</span></p>
+
+   </div>
+
+   <div class="pt-4 pb-6 mx-6">
+
+    <input type="email" placeholder="Enter your email here" required class="text-white border-2 border-[#00abf0] focus:outline-none w-full h-[40px] pl-2 rounded-md bg-[#081b29]">
+
+   </div>
+
+   <div class="ml-6">
+
+    <p class="text-white font-semibold text-[16px]">Message <span style="color: red;">*</span></p>
+
+   </div>
+
+   <div class="pt-4 pb-6 mx-6">
+
+    <textarea type="text" placeholder="Enter your message here" required class="text-white border-2 border-[#00abf0] focus:outline-none w-full h-[120px] pl-2 pt-2 rounded-md bg-[#081b29]"></textarea>
+    
+   </div>
+
+   <div class="flex gap-8 justify-center items-center">
+
+    <button class="bg-[#081b29] border-0"><i class="fa-solid fa-paper-plane fa-2x text-[#00abf0]"></i></button>
+    <button class="bg-[#081b29] border-0 reset"><i class="fa-solid fa-delete-left fa-2x text-[#00abf0]"></i></button>
+   
+   </div>
+        
+</form>
+
+
+</div>
+
+
+<!-- Contact form end  -->
+
+
+
+
+<!-- Footer start -->
+
+
+<div class="text-white mt-16 flex justify-center items-center bg-black w-full py-6">
+
+<p>Copyright &copy;2023; Designed by Shahed</p>
+
+</div>
+
+
+<!-- Footer end -->
+
+
+<script>
+
+const words = ["I am Abdullah Shahed." , "I am a Frontend Developer.", "I have devloped 10+ projects."];
+
+
+let i = 0;
+let j = 0;
+
+
+
+let isDeleting = false;
+
+function type() {
+    
+
+        currentWord = words[i]; 
+
+  if (isDeleting) {
+    document.getElementById("typewriter").textContent = currentWord.substring(0, j-1);
+    j--;
+    if (j == 1) {
+      isDeleting = false;
+      i++;
+      if (i == words.length) {
+        i = 0;
+      }
+    }
+  } else {
+    document.getElementById("typewriter").textContent = currentWord.substring(0, j+1);
+    j++;
+    if (j == currentWord.length) {
+      isDeleting = true;
+    }
+  }
+  setTimeout(type, 100);
+}
+
+type();
+
+
+function toggleMenu() {
+    const menu = document.querySelector('.nav-menu');
+    menu.classList.toggle('hidden');
+}
+
+
+
+</script>
+<script src="index.js"></script>
+</body>
+
+</html>

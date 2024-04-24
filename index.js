@@ -1,13 +1,13 @@
 function toggleContent() {
     var moreContent = document.getElementById("more-content");
-    var buttonText = document.querySelector("button");
+    var buttonText = document.querySelector(".read");
 
     if (moreContent.style.display === "none") {
         moreContent.style.display = "block";
-        buttonText.innerHTML = "See less";
+        buttonText.innerHTML = "Read less";
     } else {
         moreContent.style.display = "none";
-        buttonText.innerHTML = "See more...";
+        buttonText.innerHTML = "Read more";
     }
 }
 
@@ -50,4 +50,15 @@ function themeUpdate(){
 }
 
 themeUpdate();
+
+function toggleMenu() {
+    const menu = document.querySelector('.nav-menu');
+    menu.classList.toggle('hidden');
+}
+
+function toggleMenu() {
+    const menu = document.querySelector('.nav-menu');
+    menu.classList.toggle('hidden');
+}
+
 

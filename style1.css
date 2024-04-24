@@ -1,0 +1,66 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.intro {
+
+    font-family: "Incosolata", Consolas, monospace;
+    font-size: 20px;
+    
+}
+
+.img1 {
+
+    box-shadow: 0 0.188em 1.550em #00abf0;
+    display: block;
+
+    position: relative;
+   
+    background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, rgb(139, 0, 134), rgb(58, 241, 241), rgb(254, 220, 70)) border-box;
+  
+    border: 10px solid transparent;
+}
+
+
+
+/* project code start */
+
+
+.shade:hover {
+
+    box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
+   
+}
+
+/* .pimg:hover {
+
+    transform:scale(1.1);
+    transition:0.7s ease;
+} */
+
+/* project code end  */
+
+
+
+/* contact start */
+
+.contact {
+
+
+    box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
+
+
+}
+
+
+.contact-form {
+
+    box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
+
+
+}
+
+/* contact end */

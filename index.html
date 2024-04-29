@@ -919,7 +919,19 @@ function type() {
 
 type();
 
+function toggleContent() {
+    var moreContent = document.getElementById("more-content");
+    var buttonText = document.querySelector(".read");
 
+    if (moreContent.style.display === "none") {
+        moreContent.style.display = "block";
+        buttonText.innerHTML = "Read less";
+    } else {
+        moreContent.style.display = "none";
+        buttonText.innerHTML = "Read more";
+    }
+    }
+    
 function toggleMenu() {
     const menu = document.querySelector('.nav-menu');
     menu.classList.toggle('hidden');

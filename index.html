@@ -13,16 +13,16 @@
 
 </head>
 
-<body class="">
+<body>
     
 
 <!-- Navbar start -->
 
 
-<div class='bg-black w-full md:fixed md:top-0 z-10'>
+<div class='bar bg-black w-full md:fixed md:top-0 z-10'>
 
           
-    <div class='container mx-auto text-white flex md:flex-row flex-col gap-6 justify-between md:items-center py-6'>
+    <div class='bar container mx-auto text-white flex md:flex-row flex-col gap-6 justify-between md:items-center py-6'>
           
         <div class="flex items-center justify-between">
 
@@ -62,7 +62,7 @@
 
 
 
-<div class="pt-[30px] md:pt-[100px] flex justify-center items-center gap-4">
+<div class="pt-[35px] md:pt-[100px] flex justify-center items-center gap-2">
 
     <div>
 
@@ -73,16 +73,23 @@
 
     <div class="flex justify-center items-center gap-1">
 
-        <input class="radiocolor1" type="radio" name="mode" value="#081b29" checked>
-        <p class="text-white">Off</p>
+        <input id="c1" type="radio" name="mode" value="#081b29" checked>
+        <p class="color" class="">Default</p>
         
 
     </div>
 
     <div class="flex justify-center items-center gap-1">
 
-        <input class="radiocolor2" type="radio" name="mode" value="black" >
-        <p class="text-white">On</p>
+        <input id="c2" type="radio" name="mode" value="black" >
+        <p class="color" class="">On</p>
+        
+    </div>
+
+    <div class="flex justify-center items-center gap-1">
+
+        <input id="c3" type="radio" name="mode" value="white">
+        <p class="color" class="">Off</p>
         
     </div>
 
@@ -105,7 +112,7 @@
 
 <div class="mt-10">
 
-    <h1 class="text-white text-5xl text-center font-semibold px-2">Welcome to my portfolio</h1>
+    <h1 class="color text-5xl text-center font-semibold px-2">Welcome to my portfolio</h1>
     
 </div>
 
@@ -121,7 +128,7 @@
 
 <div class="mt-8 flex items-center justify-center">
 
-    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfrLZgGlkfjxnRRglbnBgJNwDFzLVCpTqXmKFbxFlqXHNsfXLVTGscMjjMThSgbxpFWCbB" target="_blank"><button class="text-white font-semibold text-center hover:bg-[#00abf0] hover:transition hover:duration-500 border-[1px] border-[#00abf0] p-2 rounded-md">Hire me</button></a>
+    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfrLZgGlkfjxnRRglbnBgJNwDFzLVCpTqXmKFbxFlqXHNsfXLVTGscMjjMThSgbxpFWCbB" target="_blank"><button class="color font-semibold text-center hover:bg-[#00abf0] hover:transition hover:duration-500 border-[1px] border-[#00abf0] p-2 rounded-md">Hire me</button></a>
 </div>
 
 <!-- Intro end -->
@@ -141,10 +148,10 @@
 
 <div class="mt-10 mx-4 sm:mx-[50px] md:mx-[60px]">
 
-  <p class="text-justify text-[20px] text-white">
+  <p class="color text-justify text-[20px]">
 
     My name is Abdullah Shahed. I have completed my graduation at Green university of Bangladesh with BSc in CSE. I have two years of experience in Frontend Development. I have also some Backend skills. I have devloped 10+ projects. I am a punctual, dedicated on my work, Obey rule, Enthusiastic , Career minded and open minded, capable of solving comprehensive problems, talkative and having good communication skills.
-    <span id="more-content" class="text-justify text-[20px] hidden text-white">
+    <span id="more-content" class="color text-justify text-[20px] hidden">
         To be associated with an organization which provides challenging work environmental and proving my excellence at every step is my long term career goal. Highly efficient and passionate for learning new concept, ideas, techniques. To reach the heights in my career with proven expertise.
     </span>
 
@@ -152,7 +159,7 @@
   
   <div class="mt-5">
 
-    <button class="read text-white font-semibold text-center hover:bg-[#00abf0] hover:transition hover:duration-500 border-[1px] border-[#00abf0] p-2 rounded-md" onclick="toggleContent()">Read more</button>
+    <button class="color read text-white font-semibold text-center hover:bg-[#00abf0] hover:transition hover:duration-500 border-[1px] border-[#00abf0] p-2 rounded-md" onclick="toggleContent()">Read more</button>
 
   </div>
 
@@ -180,7 +187,7 @@
             <div class="flex items-center gap-1">
 
                     <img class="h-[30px] w-[40px]" src="html.png" alt="">  
-                    <span class="text-white font-semibold">HTML</span>
+                    <span class="color font-semibold">HTML</span>
 
             </div>
 
@@ -201,7 +208,7 @@
             <div class="flex items-center gap-1">
 
                     <img class="h-[30px] w-[40px]" src="xml1.png" alt="">  
-                    <span class="text-white font-semibold">XML</span>
+                    <span class="color font-semibold">XML</span>
 
             </div>
 
@@ -222,7 +229,7 @@
             <div class="flex items-center gap-1">
 
                     <img class="h-[30px] w-[40px]" src="css.png" alt="">  
-                    <span class="text-white font-semibold">CSS</span>
+                    <span class="color font-semibold">CSS</span>
 
             </div>
 
@@ -243,7 +250,7 @@
             <div class="flex items-center gap-1">
 
                     <img class="h-[30px] w-[40px]" src="bootstarp.png" alt="">  
-                    <span class="text-white font-semibold">Bootstrap</span>
+                    <span class="color font-semibold">Bootstrap</span>
 
             </div>
 
@@ -263,7 +270,7 @@
             <div class="flex items-center gap-1">
 
                     <img class="h-[30px] w-[40px]" src="tailwind.png" alt="">  
-                    <span class="text-white font-semibold">Tailwind CSS</span>
+                    <span class="color font-semibold">Tailwind CSS</span>
 
             </div>
 
@@ -284,7 +291,7 @@
             <div class="flex items-center gap-1">
 
                     <img class="h-[30px] w-[40px]" src="js.png" alt="">  
-                    <span class="text-white font-semibold">JavaScript</span>
+                    <span class="color font-semibold">JavaScript</span>
 
             </div>
 
@@ -306,7 +313,7 @@
             <div class="flex items-center gap-1">
 
                     <img class="h-[30px] w-[40px]" src="react.png" alt="">  
-                    <span class="text-white font-semibold">React JS</span>
+                    <span class="color font-semibold">React JS</span>
 
             </div>
 
@@ -328,7 +335,7 @@
             <div class="flex items-center gap-1">
 
                     <img class="h-[30px] w-[40px]" src="php.png" alt="">  
-                    <span class="text-white font-semibold">PHP</span>
+                    <span class="color font-semibold">PHP</span>
 
             </div>
 
@@ -349,7 +356,7 @@
             <div class="flex items-center gap-1">
 
                     <img class="h-[30px] w-[40px]" src="mysql.png" alt="">  
-                    <span class="text-white font-semibold">MySQL</span>
+                    <span class="color font-semibold">MySQL</span>
 
             </div>
 
@@ -370,7 +377,7 @@
             <div class="flex items-center gap-1">
 
                     <img class="h-[30px] w-[40px]" src="c.png" alt="">  
-                    <span class="text-white font-semibold">C</span>
+                    <span class="color font-semibold">C</span>
 
             </div>
 
@@ -392,7 +399,7 @@
             <div class="flex items-center gap-1">
 
                     <img class="h-[30px] w-[40px]" src="java.png" alt="">  
-                    <span class="text-white font-semibold">Java</span>
+                    <span id="color" class="color font-semibold">Java</span>
 
             </div>
 
@@ -433,7 +440,7 @@
 
         <div class="flex items-center gap-1">
  
-                <span class="text-white font-semibold">Communication Skill</span>
+                <span class="color font-semibold">Communication Skill</span>
 
         </div>
 
@@ -453,7 +460,7 @@
 
         <div class="flex items-center gap-1">
  
-                <span class="text-white font-semibold">Problem Solving</span>
+                <span class="color font-semibold">Problem Solving</span>
 
         </div>
 
@@ -473,7 +480,7 @@
 
         <div class="flex items-center gap-1">
  
-                <span class="text-white font-semibold">Leadership Skill</span>
+                <span class="color font-semibold">Leadership Skill</span>
 
         </div>
 
@@ -493,7 +500,7 @@
 
         <div class="flex items-center gap-1">
  
-                <span class="text-white font-semibold">Team Work</span>
+                <span class="color font-semibold">Team Work</span>
 
         </div>
 
@@ -685,13 +692,13 @@
 
 <div class="mt-16 mb-4 mx-4">
 
-    <p class="text-center text-white text-[20px]">Securing the IoT with Blockchain Technology: Enhancing Security and Optimizing Performance.</p>
+    <p class="color text-center text-[20px]">Securing the IoT with Blockchain Technology: Enhancing Security and Optimizing Performance.</p>
     
 
 </div>
 
 <div class="mx-4">
-    <p class="text-center text-white text-[20px]">-This is my final year thesis work in university.</p>
+    <p class="color text-center text-[20px]">-This is my final year thesis work in university.</p>
 </div> 
 
 
@@ -709,13 +716,13 @@
 
 <div class="mt-16 mb-4 mx-4">
 
-    <p class="text-center text-white text-[20px]">-Vice Chancellor's Meritorious Student Award for Fall semester 2022.</p>
+    <p class="color text-center text-[20px]">-Vice Chancellor's Meritorious Student Award for Fall semester 2022.</p>
     
 
 </div>
 
 <div class="mx-4">
-    <p class="text-center text-white text-[20px]">-Dean's Meritorious Student Award for Summer semester 2023</p>
+    <p class="color text-center text-[20px]">-Dean's Meritorious Student Award for Summer semester 2023</p>
 </div> 
 
 <!-- Awards end  -->
@@ -739,7 +746,7 @@
 
 <div class="mt-10 mx-4">
 
-    <p class="text-center text-white text-[20px]">I have already completed my 3 months internship at NextTech Limited Bangladesh as an Web Developer.</p>
+    <p class="color text-center text-[20px]">I have already completed my 3 months internship at NextTech Limited Bangladesh as an Web Developer.</p>
     
 
 </div>
@@ -762,11 +769,11 @@
 
 
     <div class="pt-10 flex flex-col gap-4 items-center justify-center">
-        <p class="text-white text-center text-[20px] font-semibold">Address: Mirpur-14,Dhaka-1206</p>
+        <p class="color text-center text-[20px] font-semibold">Address: Mirpur-14,Dhaka-1206</p>
 
-        <p class="text-white text-center text-[20px] font-semibold">Email: shahed32156@gmail.com</p>
+        <p class="color text-center text-[20px] font-semibold">Email: shahed32156@gmail.com</p>
     
-        <p class="text-white text-center text-[20px] font-semibold">Phone: +8801741987566</p>
+        <p class="color text-center text-[20px] font-semibold">Phone: +8801741987566</p>
 
     </div>
 
@@ -781,7 +788,7 @@
 
     <div class="mt-8 flex items-center justify-center">
 
-        <a href="./Abdullah Shahed (Resume).pdf" download="Abdullah Shahed (Resume)" target="_blank"><button class="text-white font-semibold text-center hover:bg-[#00abf0] hover:transition hover:duration-500 border-[1px] border-[#00abf0] p-2 rounded-md">Download Resume</button></a>
+        <a href="./Abdullah Shahed (Resume).pdf" download="Abdullah Shahed (Resume)" target="_blank"><button class="color font-semibold text-center hover:bg-[#00abf0] hover:transition hover:duration-500 border-[1px] border-[#00abf0] p-2 rounded-md">Download Resume</button></a>
     
     </div>
 
@@ -803,42 +810,42 @@
         
    <div class="py-6">
 
-    <h1 class="text-white text-[20px] font-semibold text-center">Share Your Query</h1>
+    <p class="color text-[20px] font-semibold text-center">Share Your Query</p>
 
    </div>
 
    <div class="ml-6">
 
-    <p class="text-white font-semibold text-[16px]">Full Name <span style="color: red;">*</span></p>
+    <p class="color font-semibold text-[16px]">Full Name <span style="color: red;">*</span></p>
 
    </div>
 
    <div class="pt-4 pb-6 mx-6">
 
-    <input type="text" name="name" placeholder="Enter your name here" required class="text-white border-2 border-[#00abf0] focus:outline-none w-full h-[40px] pl-2 rounded-md bg-[#081b29]">
+    <input type="text" name="name" placeholder="Enter your name here" required class="color text-white border-2 border-[#00abf0] focus:outline-none w-full h-[40px] pl-2 rounded-md bg-[#081b29]">
    </div>
 
    <div class="ml-6">
 
-    <p class="text-white font-semibold text-[16px]">Email <span style="color: red;">*</span></p>
+    <p class="color font-semibold text-[16px]">Email <span style="color: red;">*</span></p>
 
    </div>
 
    <div class="pt-4 pb-6 mx-6">
 
-    <input type="email" name="email" placeholder="Enter your email here" required class="text-white border-2 border-[#00abf0] focus:outline-none w-full h-[40px] pl-2 rounded-md bg-[#081b29]">
+    <input type="email" name="email" placeholder="Enter your email here" required class="color text-white border-2 border-[#00abf0] focus:outline-none w-full h-[40px] pl-2 rounded-md bg-[#081b29]">
    
    </div>
 
    <div class="ml-6">
 
-    <p class="text-white font-semibold text-[16px]">Message <span style="color: red;">*</span></p>
+    <p class="color font-semibold text-[16px]">Message <span style="color: red;">*</span></p>
 
    </div>
 
    <div class="pt-4 pb-6 mx-6">
 
-    <textarea name="message" type="text" placeholder="Enter your message here" required class="text-white border-2 border-[#00abf0] focus:outline-none w-full h-[120px] pl-2 pt-2 rounded-md bg-[#081b29]"></textarea>
+    <textarea name="message" type="text" placeholder="Enter your message here" required class="color text-white border-2 border-[#00abf0] focus:outline-none w-full h-[120px] pl-2 pt-2 rounded-md bg-[#081b29]"></textarea>
    
    </div>
 
@@ -863,7 +870,7 @@
 <!-- Footer start -->
 
 
-<div class="text-white mt-16 flex justify-center items-center bg-black w-full py-6">
+<div class="bar text-white mt-16 flex justify-center items-center bg-black w-full py-6">
 
 <p>Copyright &copy;2023; Designed by Shahed</p>
 
@@ -927,7 +934,64 @@ for (const btn of btns) {
 
 function changeBg() {
 
-    document.body.style.background=this.value;
+    if (this.value=="black") {
+
+        document.body.style.background="black";
+
+        var texts = document.getElementsByClassName("color");
+            for (var i = 0; i < texts.length; i++) {
+                texts[i].style.color = "white";
+                texts[i].style.background = "black";
+             }
+
+             var texts1 = document.getElementsByClassName("bar");
+            for (var i = 0; i < texts1.length; i++) {
+                
+                texts1[i].style.background = "black";
+                texts1[i].style.color = "white";
+             }
+       
+    }
+
+   else if (this.value == "#081b29") {
+
+        document.body.style.background="#081b29";
+
+        var texts = document.getElementsByClassName("color");
+            for (var i = 0; i < texts.length; i++) {
+                texts[i].style.color = "white";
+                texts[i].style.background = "#081b29";
+             }
+
+             var texts1 = document.getElementsByClassName("bar");
+            for (var i = 0; i < texts1.length; i++) {
+                
+                texts1[i].style.background = "black";
+                texts1[i].style.color = "white";
+             }
+    }
+
+    else  {
+        document.body.style.background="white";
+       
+            var texts = document.getElementsByClassName("color");
+            for (var i = 0; i < texts.length; i++) {
+                texts[i].style.color = "black";
+                texts[i].style.background = "white";
+                
+             }
+
+             var texts1 = document.getElementsByClassName("bar");
+            for (var i = 0; i < texts1.length; i++) {
+                
+                texts1[i].style.background = "white";
+                texts1[i].style.color = "black";
+             }
+
+    }
+
+    
+    
 }
 
 </script>

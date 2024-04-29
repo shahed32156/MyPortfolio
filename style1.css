@@ -8,18 +8,37 @@ body {
     background:#081b29;
 }
 
+
+.color {
+
+    color: white;
+}
+
+
+
+
+
+
 /* Darkmood start */
 
 
-.radiocolor1 {
+#c1 {
 
-    accent-color:rgb(255, 25, 25);
+    accent-color: #00abf0;
 }
 
-.radiocolor2 {
+#c2 {
 
-    accent-color:rgb(34, 231, 34);
+    accent-color: rgb(17, 227, 17);
+    
 }
+
+#c3 {
+
+    accent-color: rgb(255, 35, 35);
+
+}
+
 
 /* Darkmood end */
 

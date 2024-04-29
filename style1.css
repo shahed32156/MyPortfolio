@@ -1,0 +1,379 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    background:#081b29;
+}
+
+/* Darkmood start */
+
+
+.radiocolor1 {
+
+    accent-color:rgb(255, 25, 25);
+}
+
+.radiocolor2 {
+
+    accent-color:rgb(34, 231, 34);
+}
+
+/* Darkmood end */
+
+.intro {
+
+    font-family: "Incosolata", Consolas, monospace;
+    font-size: 20px;
+    
+}
+
+.img1 {
+
+    box-shadow: 0 0.188em 1.550em #00abf0;
+    display: block;
+
+    position: relative;
+   
+    background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, rgb(139, 0, 134), rgb(58, 241, 241), rgb(254, 220, 70)) border-box;
+  
+    border: 10px solid transparent;
+}
+
+
+
+/* project code start */
+
+
+.shade:hover {
+
+    box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
+   
+}
+
+
+/* project code end  */
+
+
+
+/* skills start */
+
+.html {
+
+    width: 90%;
+    background-color: orange;
+    animation: com 4s infinite;
+}
+
+.xml {
+
+    width: 72%;
+    background-color: #1ee0cb;
+    animation: problem 4s infinite;
+}
+
+.css {
+
+    width: 80%;
+    background-color: #545dff;
+    animation: leader 4s infinite;
+}
+
+.bootstrap {
+
+    width: 74%;
+    background-color: #b223fe;
+    animation: team 4s infinite;
+}
+
+.tailwind {
+
+    width: 78%;
+    background-color: #8fd2ff;
+    animation: leader 4s infinite;
+}
+
+
+.js {
+
+    width: 50%;
+    background-color: #faf32f;
+    animation: com 4s infinite;
+}
+
+.react {
+
+    width: 55%;
+    background-color: #00abf0;
+    animation: problem 4s infinite;
+}
+
+.php {
+
+    width: 60%;
+    background-color: #f98bf5;
+    animation: leader 4s infinite;
+}
+
+.sql {
+
+    width: 75%;
+    background-color: skyblue;
+    animation: team 4s infinite;
+}
+
+.cprog {
+
+    width: 68%;
+    background-color: #6699CC;
+    animation: com 4s infinite;
+}
+
+.java {
+
+    width: 50%;
+    background-color: pink;
+    animation: problem 4s infinite;
+}
+
+
+.com {
+
+    width: 80%;
+    background-color: #00FF66;
+    animation: com 4s infinite;
+}
+
+.problem {
+
+    width: 70%;
+    background-color: #ff33f5;
+    animation: problem 4s infinite;
+}
+
+.leader {
+
+    width: 75%;
+    background-color: tomato;
+    animation: leader 4s infinite;
+}
+
+.team {
+
+    width: 85%;
+    background-color: #bbf73b;
+    animation: team 4s infinite;
+}
+
+@keyframes com {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+
+        width: 80%;
+    }
+}
+
+@keyframes problem {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+
+        width: 70%;
+    }
+}
+
+@keyframes leader {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+
+        width: 75%;
+    }
+}
+
+@keyframes team {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+
+        width: 85%;
+    }
+}
+
+@keyframes html {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+
+        width: 90%;
+    }
+}
+
+@keyframes xml {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+
+        width: 72%;
+    }
+}
+
+@keyframes css {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+
+        width: 80%;
+    }
+}
+
+@keyframes bootstrap {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+
+        width: 74%;
+    }
+}
+
+@keyframes tailwind {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+
+        width: 78%;
+    }
+}
+
+@keyframes js {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+
+        width: 50%;
+    }
+}
+
+@keyframes react {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+
+        width: 55%;
+    }
+}
+
+@keyframes php {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+
+        width: 60%;
+    }
+}
+
+@keyframes sql {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+
+        width: 75%;
+    }
+}
+
+@keyframes cprog {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+
+        width: 68%;
+    }
+}
+
+@keyframes java {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
+
+        width: 50%;
+    }
+}
+
+
+
+/* skills end */
+
+/* contact start */
+
+.contact {
+
+
+    box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
+
+
+}
+
+
+.contact-form {
+
+    box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
+
+}
+
+
+
+/* contact end */
+
+
+
+
+

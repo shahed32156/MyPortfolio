@@ -62,3 +62,23 @@ function toggleMenu() {
 }
 
 
+//darkmood start
+
+const btns = document.getElementsByName("mode");
+
+for (const btn of btns) {
+
+    btn.onclick = changeBg;
+    
+}
+
+function changeBg() {
+
+    document.body.style.background=this.value;
+    
+}
+
+
+
+
+//darkmood end

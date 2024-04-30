@@ -128,7 +128,7 @@
 
 <div class="mt-8 flex items-center justify-center">
 
-    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfrLZgGlkfjxnRRglbnBgJNwDFzLVCpTqXmKFbxFlqXHNsfXLVTGscMjjMThSgbxpFWCbB" target="_blank"><button class="color font-semibold text-center hover:bg-[#00abf0] hover:transition hover:duration-500 border-[1px] border-[#00abf0] p-2 rounded-md">Hire me</button></a>
+    <a class="bg" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfrLZgGlkfjxnRRglbnBgJNwDFzLVCpTqXmKFbxFlqXHNsfXLVTGscMjjMThSgbxpFWCbB" target="_blank"><button class=" font-semibold text-center hover:bg-[#00abf0] hover:transition hover:duration-500 border-[1px] border-[#00abf0] p-2 rounded-md">Hire me</button></a>
 </div>
 
 <!-- Intro end -->
@@ -159,7 +159,7 @@
   
   <div class="mt-5">
 
-    <button class="color read text-white font-semibold text-center hover:bg-[#00abf0] hover:transition hover:duration-500 border-[1px] border-[#00abf0] p-2 rounded-md" onclick="toggleContent()">Read more</button>
+    <button id="more-content" class="bg read text-white font-semibold text-center hover:bg-[#00abf0] hover:transition hover:duration-500 border-[1px] border-[#00abf0] p-2 rounded-md" onclick="toggleContent()">Read more</button>
 
   </div>
 
@@ -788,7 +788,7 @@
 
     <div class="mt-8 flex items-center justify-center">
 
-        <a href="./Abdullah Shahed (Resume).pdf" download="Abdullah Shahed (Resume)" target="_blank"><button class="color font-semibold text-center hover:bg-[#00abf0] hover:transition hover:duration-500 border-[1px] border-[#00abf0] p-2 rounded-md">Download Resume</button></a>
+        <a href="./Abdullah Shahed (Resume).pdf" download="Abdullah Shahed (Resume)" target="_blank"><button class="bg font-semibold text-center hover:bg-[#00abf0] hover:transition hover:duration-500 border-[1px] border-[#00abf0] p-2 rounded-md">Download Resume</button></a>
     
     </div>
 
@@ -866,7 +866,6 @@
 
 
 
-
 <!-- Footer start -->
 
 
@@ -919,6 +918,13 @@ function type() {
 
 type();
 
+
+function toggleMenu() {
+    const menu = document.querySelector('.nav-menu');
+    menu.classList.toggle('hidden');
+}
+
+
 function toggleContent() {
     var moreContent = document.getElementById("more-content");
     var buttonText = document.querySelector(".read");
@@ -930,11 +936,6 @@ function toggleContent() {
         moreContent.style.display = "none";
         buttonText.innerHTML = "Read more";
     }
-    }
-    
-function toggleMenu() {
-    const menu = document.querySelector('.nav-menu');
-    menu.classList.toggle('hidden');
 }
 
 const btns = document.getElementsByName("mode");
@@ -962,6 +963,15 @@ function changeBg() {
                 texts1[i].style.background = "black";
                 texts1[i].style.color = "white";
              }
+
+             var texts2 = document.getElementsByClassName("bg");
+             
+            for (var i = 0; i < texts2.length; i++) {
+                
+                
+                texts2[i].style.color = "white";
+
+             }
        
     }
 
@@ -981,6 +991,16 @@ function changeBg() {
                 texts1[i].style.background = "black";
                 texts1[i].style.color = "white";
              }
+
+
+             var texts2 = document.getElementsByClassName("bg");
+            for (var i = 0; i < texts2.length; i++) {
+                
+               
+                texts2[i].style.color = "white";
+             }
+
+
     }
 
     else  {
@@ -1000,7 +1020,17 @@ function changeBg() {
                 texts1[i].style.color = "black";
              }
 
+             var texts2 = document.getElementsByClassName("bg");
+            for (var i = 0; i < texts2.length; i++) {
+                
+              
+                texts2[i].style.color="black";
+                
+             }
+
+
     }
+
 
     
     
